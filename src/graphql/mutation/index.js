@@ -1,7 +1,8 @@
-import { addMessage } from './messages'
+import { addMessage, isTyping } from './messages'
 
 const messages = {
-    addMessage
+    addMessage,
+    isTyping
 }
 
 export {

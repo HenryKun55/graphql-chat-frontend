@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Messages, SendMessage } from '../../components'
 
 const Home = () => {

@@ -9,3 +9,9 @@ export const addMessage = gql`
         }
     }
 `
+
+export const isTyping = gql`
+    mutation typing($author: String!) {
+        typing(author: $author)
+    }
+`

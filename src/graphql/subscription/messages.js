@@ -1,8 +1,8 @@
 import { gql } from 'apollo-boost'
 
 export const typing = gql`
-    subscription($author: String!) {
-        userTyping(author: $author),
+    subscription ($author: String!) {
+        typing(author: $author)
     }
 `
 
